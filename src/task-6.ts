@@ -1,6 +1,4 @@
-type Arr = number[] | string[] | boolean[];
-
-function getFirstElement<T>(arr: Arr): T {
+function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }
 
